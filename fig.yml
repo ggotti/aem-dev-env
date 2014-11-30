@@ -1,0 +1,17 @@
+publisher:
+  build: publisher/.
+  ports:
+   - "4503:4503"
+author:
+  build: author/.
+  links:
+   - publisher
+  ports:
+   - "4502:4502"
+dispatcher:
+  image: ggotti/aem-dispatcher
+  links:
+    - publisher
+  ports:
+    - "80:80"
+    - "443:443"
