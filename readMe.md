@@ -16,7 +16,7 @@ The install media must be given specific names depending on location. cq-author-
 |   +-- cq-publish-4503.jar [User Added]
 |   +-- Dockerfile
 |   +-- license.propeties [User Added]
-+-- publisher
++-- author
 |   +-- cq-author-4503.jar
 |   +-- Dockerfile
 |   +-- license.propeties [User Added]
